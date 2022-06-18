@@ -14,35 +14,36 @@ We are looking at three specific scores:
 The results for the analysis of the six models are as follows in the areas of balanced accuracy score and the precision and recall scores for each:
 
 - OVERSAMPLING
-Precision Score: 0.99      
-Recall Score: 0.60
-Balanced Accuracy Score :  0.660760553955302
+
+The oversampling model had a 66% balanced accuracy score. The recall was 60%. The precision score was 99%. While the precision score was very good, the model was not very balanced and while it did catch the majority of the positive cases, it missed 40%. 
 
 ---
-![Oversampling](https://github.com/lllohr/Credit_Risk_Analysis/blob/9ba40d390ecafde3ba85254fee5668bd6d21ba80/Resources/images/oversampling.png)
+![Oversampling](https://github.com/lllohr/Credit_Risk_Analysis/blob/9052b6e758becd5bc3fd82a39d607bd24cf98758/Resources/images/oversampling.png)
 ---
 
 - SMOTE OVERSAMPLING
-Precision Score: 0.99      
-Recall Score : 0.68 
-Balanced Accuracy Score :  0.6581261172188313
+
+SMOTE oversampling performed similarly to the first oversampling model. The precision score was 99%, the recall score was 68%, and the balanced accuracy score was 66%. 
 
 ---
 ![SMOTE](https://github.com/lllohr/Credit_Risk_Analysis/blob/b9131e5799ab827074ce1de909f5df0d5437abcf/Resources/images/smote_oversamplling.png)
 ---
 
 - UNDERSAMPLING
-Precision Score : 0.99      
-Recall Score : 0.40
-Balanced Accuracy Score :  0.5442369453268994
+
+Undersampling performed worse than the oversampling models. The precision score was 99%, the recall score 40%, and the balanced accuracy score was 54%. 
 
 ---
-![Undersampling](https://github.com/lllohr/Credit_Risk_Analysis/blob/9ba40d390ecafde3ba85254fee5668bd6d21ba80/Resources/images/undersampling.png)
+![Undersampling](https://github.com/lllohr/Credit_Risk_Analysis/blob/9052b6e758becd5bc3fd82a39d607bd24cf98758/Resources/images/undersampling.png)
 ---
 
 - COMBINATION OVER/UNDER SAMPLING (SMOTEEN)
+
+The combination of over and under sampling using the SMOTEEN model had a precision score of 99%, a recall score of 60%, and a balanced accuracy score of 67%. The combination did comparable to the other models. There was an avantage to the undersampling. 
 Precision Score : 0.99      
+
 Recall Score : 0.60
+
 Balanced Accuracy Score :  0.6723570538765757
 
 ---
@@ -50,18 +51,16 @@ Balanced Accuracy Score :  0.6723570538765757
 ---
 
 - BALANCED FOREST CLASSIFIER
-Precision Score : 0.99      
-Recall Score : 0.87
-Balanced Accuracy Score :  0.7885466545953005
+
+The ensemble models did significantly better than the previous models. The precision score was 99%, the recall score was 87%, meaning is caught more of the positive cases. This meant that if was more accurate at predicting the high risk better than the previous models. 
 
 ---
-![Balanced Forest Classifier](https://github.com/lllohr/Credit_Risk_Analysis/blob/9ba40d390ecafde3ba85254fee5668bd6d21ba80/Resources/images/balanced_forest_classifier.png)
+![Balanced Forest Classifier](https://github.com/lllohr/Credit_Risk_Analysis/blob/9052b6e758becd5bc3fd82a39d607bd24cf98758/Resources/images/balanced_forest_classifier.png)
 ---
 
 - EASY ENSEMBLE ADABOOST CLASSIFIER
-Precision Score : 0.99      
-Recall Score : 0.94
-Balanced Accuracy Score :  0.9316600714093861
+
+The last model performed nearly perfectly! With a precision score of 99%, a recall score of 94%, and a balanced accuracy score ot 93%, I think we can declare it the winner in this analysis!
 
 ---
 ![Easy Ensemble AdaBoost Classifier](https://github.com/lllohr/Credit_Risk_Analysis/blob/9ba40d390ecafde3ba85254fee5668bd6d21ba80/Resources/images/easy_ensemble_adaboost_classifier.png)
@@ -69,15 +68,6 @@ Balanced Accuracy Score :  0.9316600714093861
 
 ## Summary:
 
-Based on the results of the performance of the six models on the data set, I would choose the Easy Ensemble AdaBoost Classifier. The reason I would use this model is that the performance was better than with the other models. I would use either of the ensemble learners for the data, as both had a higher performance on the balanced accuracy score. Looking at the predicitions and the actual accuracy on these models was much better than the 
+Based on the results of the performance of the six models on the data set, I would choose the Easy Ensemble AdaBoost Classifier. The reason I would use this model is that the performance was better than with the other models. I would use either of the ensemble learners for the data, as both had a higher performance on the balanced accuracy score, the precision, and the recall. 
 
-There is a summary of the results (2 pt)
-There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
 
-The report should contain the following:
-
-Overview of the analysis: Explain the purpose of this analysis.
-
-Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
-
-Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
