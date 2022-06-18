@@ -8,23 +8,32 @@ The loan prediction risk analysis was an exploration of supervised machine learn
 
 The results for the analysis of the six models are as follows in the areas of balanced accuracy score and the precision and recall scores for each:
 
-- OVERSAMPLING
+-OVERSAMPLING
 ---
 ![Oversampling](https://github.com/lllohr/Credit_Risk_Analysis/blob/9ba40d390ecafde3ba85254fee5668bd6d21ba80/Resources/images/oversampling.png)
 ---
+
+- SMOTE OVERSAMPLING
+---
+![SMOTE](https://github.com/lllohr/Credit_Risk_Analysis/blob/b9131e5799ab827074ce1de909f5df0d5437abcf/Resources/images/smote_oversamplling.png)
+---
+
 - UNDERSAMPLING
 ---
 ![Undersampling](https://github.com/lllohr/Credit_Risk_Analysis/blob/9ba40d390ecafde3ba85254fee5668bd6d21ba80/Resources/images/undersampling.png)
 ---
-COMBINATION OVER/UNDER SAMPLING (SMOTEEN)
+
+- COMBINATION OVER/UNDER SAMPLING (SMOTEEN)
 ---
 ![SMOTEEN](https://github.com/lllohr/Credit_Risk_Analysis/blob/9ba40d390ecafde3ba85254fee5668bd6d21ba80/Resources/images/SMOTEEN_combo_sampling.png)
 ---
-BALANCED FOREST CLASSIFIER
+
+- BALANCED FOREST CLASSIFIER
 ---
-![SMOTEEN](https://github.com/lllohr/Credit_Risk_Analysis/blob/9ba40d390ecafde3ba85254fee5668bd6d21ba80/Resources/images/balanced_forest_classifier.png)
+![Balanced Forest Classifier](https://github.com/lllohr/Credit_Risk_Analysis/blob/9ba40d390ecafde3ba85254fee5668bd6d21ba80/Resources/images/balanced_forest_classifier.png)
 ---
-EASY ENSEMBLE ADABOOST CLASSIFIER
+
+- EASY ENSEMBLE ADABOOST CLASSIFIER
 ---
 ![Easy Ensemble AdaBoost Classifier](https://github.com/lllohr/Credit_Risk_Analysis/blob/9ba40d390ecafde3ba85254fee5668bd6d21ba80/Resources/images/easy_ensemble_adaboost_classifier.png)
 ---
